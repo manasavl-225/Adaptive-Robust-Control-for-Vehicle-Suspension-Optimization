@@ -6,14 +6,16 @@ Repository containing the final report and MATLAB code for active vehicle suspen
 Quarter-car active suspension model developed using state-space representation. Controllers designed using Pole Placement with Observer and Linear Quadratic Gaussian (LQG) methods. Objective: improve ride comfort, maintain road contact, and ensure robustness under disturbances and parameter uncertainty.
 
 ## Repository Structure
+```
 AdaptiveSuspensionControl/
-├── README.md                          # Project summary and details
-├── MCT_Project_Report_Active_Suspension.pdf  # Final report (PDF)
+├── README.md
+├── MCT_Project_Report_Active_Suspension.pdf
 └── Code/
-    ├── pole_placement.m              # Pole Placement controller
-    ├── lqr_kalman_filter.m           # LQG controller implementation
-    ├── monte_carlo_sim.m             # Monte Carlo robustness test
-    └── additional_scripts.m          # Supporting simulations
+    ├── pole_placement.m
+    ├── lqr_kalman_filter.m
+    ├── monte_carlo_sim.m
+    └── additional_scripts.m
+```
 
 ## Key Features
 - Linear state-space modeling of quarter-car dynamics
